@@ -1,0 +1,221 @@
+.slides-navigation a.next, .slides-navigation a.prev{
+	height: 45px; width: 45px; background-size: cover;
+	color: white;  
+}
+
+.slides-navigation a.next{
+	background-image: url(../icons/next.png); right: 20px;
+}
+
+.slides-navigation a.prev{
+	background-image: url(../icons/prev.png); left: 20px;
+}
+.overlay{
+	height: 100%; width: 100%; background-color: grey; position: absolute;
+}
+.title{
+	position: absolute; width: 100%; height: 250px; text-align: center; z-index: 10; top:50%;
+}
+.title .head{
+	color: #fff; font-size: 50px; font-weight: 100; letter-spacing: 5px;
+}
+.title .sub{
+	font-size: 20px; color: #fff;letter-spacing: 3px;
+}
+.navbar-dark{
+	background-color:#2980b9;
+}
+.section{
+	padding: 100px 0;
+}
+.skillssection{
+	background-color:#2980b9; color: #fff;
+}
+.chart{
+	position: relative; width: 152px; height: 152px; text-align: center; display: inline-black;
+}
+canvas{
+	position: absolute; left: -40px; top: 20;
+}
+.chart .percent{
+	color: black; font-size: 40px; line-height: 152px;
+}
+.chart .percent:after{
+    content: '%';
+}
+
+.squareItem {
+	margin-top: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+
+
+.squareInnerContainer:before {
+	right: 0px;
+}
+
+.squareInnerContainer:after {
+	left: 0px
+}
+
+
+.squareContent h2 {
+	font-size: 56px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	color: #e74c3c;
+}
+
+.squareContent h3 {
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.squareIcon {
+	position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #444;
+}
+
+.Button {
+	color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.Button:hover {
+	text-decoration: none;
+	color: #e74c3c;
+	background-color: #fff;
+}
+#contact{
+	background-color: #2980b9; color: #fff;
+}
+.heading{
+    text-align: center;width: 100%;padding-bottom: 40px;
+}
+.filter{
+    text-align: center;width: 100%;
+}
+
+.filter li{
+    display: inline-block;padding: 5px;
+}
+.filter a{
+    border: 1px solid black;padding: 10px 20px;color: black;display: block;
+}
+.filter .current{
+    background: #2980b9;color: white;
+}
+.itemsContainer{
+    width: 100%;
+}
+.items li{
+    display: inline-block;padding:5px;
+}
+.items .icons{
+    position: absolute;width: 90px;height: 40px;margin: -20px auto 0 -45px;
+    left: 50%;top: 50%;text-align: center;z-index: 3;
+}
+.items a{
+    background: #2980b9;color: white;height: 40px; width: 40px;display: inline-block;
+    line-height: 40px;position: relative;transition: all 0.2s linear, 0.5s;
+}
+.items .imgOverlay{
+    height: 100%;width: 100%;background: rgba(0,0,0,0.5);position: absolute;
+    left: 0;top: 0;opacity: 0;
+}
+.items .imgOverlay:hover{
+    opacity: 1;transition: all 0.2s linear,1s;
+}
+.items .searchButton{
+    float: left;left: -200px;
+}
+.items .projectLink{
+    float: right;right: -200px;
+}
+.items .item{
+    position: relative;overflow: hidden;display: block;
+}
+.items .item:hover .searchButton{
+    left: 0;
+}
+.items .item:hover .projectLink{
+    right: 0;
+}
+.items .item:hover img{
+    transform: scale(1.05,1.05);transition: all 0.2s linear, 1s;
+}
+.items{
+    padding: 0;
+}
+#navigation{
+    background: #E74C3C;padding: 20px 10px;
+}
+#navigation li{
+    padding: 0 10px;
+}
+#navigation li a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-toggler-icon{
+    background: url("../icons/menu.png");
+    background-size: cover;
+}
+.loader{
+    width: 100%;background: white;position: fixed;top: 0;left: 0;
+    height: 100%;z-index: 1000;
+}
+.loader .inner{
+    width: 100%;height: 100%;background: url("../img/loader.gif") center center no-repeat;
+}
+.footer{
+	background-color: #313131; text-align: center; padding: 50px 0 30px 0; color: #fff;
+}.footer .btn{
+	background-image: linear-gradient(to right, #2980b9 , #2ecc71);
+}
+.footer .input-group{
+	width: 35%; text-align: center; margin-left: 370px;
+}
+.icons-footer a{
+	margin-left:20px; font-size: 20px; 
+	color: #fff;
+}
+.icons-footer{
+	margin-top: 20px;
+}
+.copyright{
+	background-color:#140B21; color: #fff; padding: 20px 0 10px 0;
+}
+.copyright .copy{
+	margin-left: 0px;
+}
